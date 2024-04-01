@@ -1,5 +1,5 @@
-title: "Blog Title"
-author: "Blog Author"
+title: "Tiger Chen"
+author: "Tiger Chen"
 description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
 permalink: /:title/
 lang: "en"
@@ -16,13 +16,15 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html"}
+  - {file: "index.md", title: "Home"}
+  - {title: "CV", url: "https://uchicago.box.com/s/z2oxjwqskp7u9vvifw06eeb8z9qops1f"}
+  - {file: "Projects.html", title: "Projects"}
   - {file: "README.md"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: Mail, icon: envelope, url: "mailto:chenyinlin1998@gmail.com"}
+  - {title: Github, icon: github, url: "https://github.com/tigeryy87"}
+  #- {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
