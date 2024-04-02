@@ -17,7 +17,7 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.md", icon: home, title: "Home"}
-  - {file: "Projects.html", icon: project-diagram, title: "Industry Experiences"}
+  - {file: "Projects.html", icon: tasks, title: "Industry Experiences"}
   - {title: "CV", icon: file, url: "https://uchicago.box.com/s/z2oxjwqskp7u9vvifw06eeb8z9qops1f"}
   #- {file: "Work.html", title: "Work Experience"}
 
