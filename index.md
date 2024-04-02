@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tiger Chen1
+title: Tiger Chen
 ---
 
 ![Tiger Chen's Profile Picture](./img/profile.jpg){: .profile-image}

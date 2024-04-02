@@ -17,9 +17,10 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.md", title: "Home"}
+  - {file: "Projects.html", title: "Industry Experiences"}
   - {title: "CV", url: "https://uchicago.box.com/s/z2oxjwqskp7u9vvifw06eeb8z9qops1f"}
   #- {file: "Work.html", title: "Work Experience"}
-  - {file: "Projects.html", title: "Projects"}
+
 
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
