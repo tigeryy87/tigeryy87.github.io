@@ -16,9 +16,9 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.md", title: "Home"}
-  - {file: "Projects.html", title: "Industry Experiences"}
-  - {title: "CV", url: "https://uchicago.box.com/s/z2oxjwqskp7u9vvifw06eeb8z9qops1f"}
+  - {file: "index.md", icon: home, title: "Home"}
+  - {file: "Projects.html", icon: industry, title: "Industry Experiences"}
+  - {title: "CV", icon: file, url: "https://uchicago.box.com/s/z2oxjwqskp7u9vvifw06eeb8z9qops1f"}
   #- {file: "Work.html", title: "Work Experience"}
 
 
@@ -26,6 +26,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:chenyinlin1998@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/tigeryy87"}
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/tigeryy87/"}
   #- {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:

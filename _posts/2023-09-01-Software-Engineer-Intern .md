@@ -10,12 +10,12 @@ categories: projects
 
 ## Project Overview
 
-Goal: This endeavor revolves around the creation of a web application designed to compile and present statistics from OSHA's Injury Tracking Application. OSHA, an acronym for Occupational Safety and Health Administration, involves the collection and reporting of data pertaining to accidents and injuries across various industries and companies on an annual basis.
+`Goal`: This endeavor revolves around the creation of a web application designed to compile and present statistics from OSHA's Injury Tracking Application. OSHA, an acronym for Occupational Safety and Health Administration, involves the collection and reporting of data pertaining to accidents and injuries across various industries and companies on an annual basis.
 
-Problem Statement: We were tasked with developing and deploying a comprehensive web application using Django and Javascript. This involved containerizing the application using Docker and subsequently deploying it on AWS to facilitate the reporting of statistics from OSHA's Injury Tracking Application. An initial codebase was provided, encompassing fundamental features of the website.
+`Problem Statement`: We were tasked with developing and deploying a comprehensive web application using Django and Javascript. This involved containerizing the application using Docker and subsequently deploying it on AWS to facilitate the reporting of statistics from OSHA's Injury Tracking Application. An initial codebase was provided, encompassing fundamental features of the website.
 
 
-Long-term Goals: Reveal's injury tracker holds significant importance as it provides public access to Occupational Safety and Health Administration (OSHA) data, which was previously obtained through legal action. The tool enables users to search and filter by company name, location, and industry, effectively visualizing injury rates and comparing them to industry standards, ultimately shedding light on workplace safety and highlighting the impact of injuries that lead to serious consequences.
+`Long-term Goals`: Reveal's injury tracker holds significant importance as it provides public access to Occupational Safety and Health Administration (OSHA) data, which was previously obtained through legal action. The tool enables users to search and filter by company name, location, and industry, effectively visualizing injury rates and comparing them to industry standards, ultimately shedding light on workplace safety and highlighting the impact of injuries that lead to serious consequences.
 
 ## About RevealNews:
 
@@ -54,28 +54,26 @@ Final Deliverables: The majority of the project's deliverables adhered to the or
 Website: The website is successfully operational at - URL: http://revealnews.us-east-1.elasticbeanstalk.com (Link deployment removed: due to Revealnews operation)
 
 ## Visuals:
-Deployment Architecture:
+Deployment_Architecture:
 ![Deployment](/img/deploy.png)
 ![AWS](/img/aws.png)
 
-Data Pipeline:
+Data_Pipeline:
 ![Data Pipeline](/img/data.png)
 
-Presentation to Reveal News:
+Presentation_to_RevealNews:
 ![Presentation](/img/present.JPG)
 
 ## Results:
-• Led the development and deployment of a Full-Stack web application using Django, ReactJs, Docker, AWS to report
+- Led the development and deployment of a Full-Stack web application using Django, ReactJs, Docker, AWS to report
 OSHA’s Injury Tracking Application statistics for ”Reveal News” - Center for Investigative Reporting
-• Developed a REST API with Django REST, Docker, bridging ReactJS, JavaScript front-end with PostgreSQL
-• Streamlined and enhanced deployment processes by utilizing AWS CodePipeline and AWS Elastic Beanstalk, integrating
-Docker image pushes to AWS ECR, created a fully-automatic one-click deployment, reducing deployment time by 60%
-• Authored Python unit testing to ensure code reliability and stability, achieving over 90% test coverage
-• Implemented an improved version of the data preprocessing ETL pipeline, reducing runtime by more than 40%, and
-built a high-quality SQL database for Injury tracking data containing more than 2 million instances
-• Developed algorithms utilizing machine learning techniques such as feature engineering and NLP to enhance entity
+- Developed a REST API with Django REST, Docker, bridging ReactJS, JavaScript front-end with PostgreSQL
+- Streamlined and enhanced deployment processes by utilizing AWS CodePipeline and AWS Elastic Beanstalk, integrating Docker image pushes to AWS ECR, created a fully-automatic one-click deployment, reducing deployment time by 60%
+- Authored Python unit testing to ensure code reliability and stability, achieving over 90% test coverage
+- Implemented an improved version of the data preprocessing ETL pipeline, reducing runtime by more than 40%, and built a high-quality SQL database for Injury tracking data containing more than 2 million instances
+- Developed algorithms utilizing machine learning techniques such as feature engineering and NLP to enhance entity
 resolution and geocoding within the OSHA dataset, and improved data accuracy by more than 60%.
-• Utilized PCA scatter plots and CDF graphs for data visualization, aiding in critical dataset cutoff decisions
+- Utilized PCA scatter plots and CDF graphs for data visualization, aiding in critical dataset cutoff decisions
 
 ## Relevant Links and/or Attachments:
 
