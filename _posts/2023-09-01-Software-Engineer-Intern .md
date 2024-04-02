@@ -32,11 +32,11 @@ The Occupational Safety and Health Administration (OSHA) provides yearly injury 
 
 ## Process:
 
-Code Quality: Enhanced code quality through Pytest for unit testing, Pylint & Flake8 for code formatting, and comprehensive use of docstrings while removing redundant code.
+`Code Quality`: Enhanced code quality through Pytest for unit testing, Pylint & Flake8 for code formatting, and comprehensive use of docstrings while removing redundant code.
 
-Automated Deployment: Streamlined deployment using GitHub Actions & Dockerization, with AWS ECR for image storage and AWS CodePipeline for automated deployment to Elastic Beanstalk within an ECS-based multi-container docker environment.
+`Automated Deployment`: Streamlined deployment using GitHub Actions & Dockerization, with AWS ECR for image storage and AWS CodePipeline for automated deployment to Elastic Beanstalk within an ECS-based multi-container docker environment.
 
-For Data: Analyzed provided python scripts to understand the transformation process of OSHA data into JSON files within the application code. These JSON files are loaded into the Postgres database within the Docker container during startup.
+`Data`: Analyzed provided python scripts to understand the transformation process of OSHA data into JSON files within the application code. These JSON files are loaded into the Postgres database within the Docker container during startup.
 
 
 ## Challenges:
